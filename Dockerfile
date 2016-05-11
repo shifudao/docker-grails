@@ -9,4 +9,6 @@ RUN cd /usr/share && \
 RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/grails /usr/bin/
 RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/startGrails /usr/bin/
 
+WORKDIR /app/
+
 ENTRYPOINT ["grails"]
