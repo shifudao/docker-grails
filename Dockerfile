@@ -11,4 +11,4 @@ RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/startGrails /usr/bin/
 
 WORKDIR /app/
 
-ENTRYPOINT ["grails"]
+CMD grails
