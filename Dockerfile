@@ -8,7 +8,6 @@ RUN cd /usr/share && \
     unzip grails-${GRAILS_VERSION}.zip && \
     rm -f grails-${GRAILS_VERSION}.zip
 RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/grails /usr/bin/
-RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/startGrails /usr/bin/
 
 WORKDIR /app/
 
