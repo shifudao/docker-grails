@@ -9,6 +9,6 @@ RUN cd /usr/share && \
     rm -f grails-${GRAILS_VERSION}.zip
 RUN ln -s /usr/share/grails-${GRAILS_VERSION}/bin/grails /usr/bin/
 
-WORKDIR /app/
+WORKDIR /usr/src/
 
 CMD ["grails"]
