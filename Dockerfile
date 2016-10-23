@@ -1,4 +1,4 @@
-FROM java:8-alpine
+FROM openjdk:8-alpine
 MAINTAINER "冯宇<yu.feng@shifudao.com>"
 
 ENV GRAILS_VERSION 2.5.0
